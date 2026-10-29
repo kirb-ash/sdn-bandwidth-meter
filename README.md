@@ -104,7 +104,7 @@ Run: 10 Mbps bottleneck, 1200-byte datagrams, 8 s per test, userspace OVS, no ad
 ![goodput](results/plots/goodput_vs_offered.png)
 ![loss](results/plots/loss_vs_offered.png)
 
-**E2: two 8 Mbps flows sharing the bottleneck**: h1→h3 got 2.3 Mbps, h2→h4 got 4.9 Mbps.
+**E2: two 8 Mbps flows sharing the bottleneck**: h1→h3 got 2.3 Mbps, h2→h4 got 4.9 Mbps. Together that is 7.2 Mbps, below the ~9.5 Mbps a single flow reached, so in this run the link was not kept full either. The likely cause is the userspace OVS datapath running out of CPU with two flows; rerun on the kernel datapath to confirm.
 
 ![competing](results/plots/competing_flows.png)
 
@@ -119,7 +119,7 @@ Run: 10 Mbps bottleneck, 1200-byte datagrams, 8 s per test, userspace OVS, no ad
 1. **Capacity knee at 10 Mbps.** Goodput tracks offered load up to 9 Mbps, then flattens. Every Mbps above capacity becomes loss, so loss ≈ 1 − C/offered (20 Mbps offered → ~53% lost).
 2. **Goodput plateaus at ~9.5, not 10 Mbps.** The link shapes Ethernet frames; the receiver counts UDP payload. 1200 B payload rides in a 1242 B frame (UDP 8 + IP 20 + Ethernet 14), and 10 × 1200/1242 = 9.66 Mbps. The controller, which counts frame bytes, sees the port at ~10 Mbps. The two views agree once headers are accounted for.
 3. **Jitter peaks around the knee, then falls.** Near capacity the queue alternately fills and drains, so spacing between arrivals varies. Far above capacity the queue stays full and the link drains it at a constant rate, so arrivals become evenly spaced again.
-4. **UDP gets no fair share.** Two identical flows split the bottleneck roughly 1:2. UDP has no congestion control and a drop-tail FIFO drops whatever arrives when the queue is full, so the split depends on burst timing, not fairness. This is exactly why TCP congestion control or fair queueing (FQ-CoDel, per-flow meters in OpenFlow) exist.
+4. **UDP gets no fair share.** Two identical flows got roughly a 1:2 split. UDP has no congestion control and a drop-tail FIFO drops whatever arrives when the queue is full, so the split depends on burst timing, not fairness. This is exactly why TCP congestion control or fair queueing (FQ-CoDel, per-flow meters in OpenFlow) exist.
 
 ## Limitations
 
