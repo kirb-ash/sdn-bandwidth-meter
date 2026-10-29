@@ -1,0 +1,8 @@
+__pycache__/
+*.pyc
+venv/
+ryuenv/
+logs/
+*.log
+!results/controller_logs/*.log
+.DS_Store

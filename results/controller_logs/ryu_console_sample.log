@@ -1,0 +1,577 @@
+loading app controller/bw_monitor.py
+loading app ryu.controller.ofp_handler
+instantiating app controller/bw_monitor.py of BandwidthMonitor
+instantiating app ryu.controller.ofp_handler of OFPHandler
+switch 0000000000000001 connected
+switch 0000000000000002 connected
+[ports] switch s1
+  s1 port 1: rx    1.655 Mbps  tx    0.001 Mbps  drops 0
+  s1 port 3: rx    0.001 Mbps  tx    1.655 Mbps  drops 0
+[ports] switch s2
+  s2 port 1: rx    0.001 Mbps  tx    1.654 Mbps  drops 0
+  s2 port 3: rx    1.654 Mbps  tx    0.001 Mbps  drops 0
+[ports] switch s1
+  s1 port 1: rx    2.069 Mbps  tx    0.000 Mbps  drops 0
+  s1 port 3: rx    0.000 Mbps  tx    2.050 Mbps  drops 0
+[flows] switch s1  mix: UDP 100%, ICMP 0%, TCP 0%
+  UDP  10.0.0.1:38378 -> 10.0.0.3:5001     2.055 Mbps  (730 pkts)
+[ports] switch s2
+  s2 port 1: rx    0.000 Mbps  tx    2.051 Mbps  drops 0
+  s2 port 3: rx    2.051 Mbps  tx    0.001 Mbps  drops 0
+[flows] switch s2  mix: UDP 100%, ICMP 0%, TCP 0%
+  UDP  10.0.0.1:38378 -> 10.0.0.3:5001     2.055 Mbps  (730 pkts)
+[ports] switch s1
+  s1 port 1: rx    2.070 Mbps  tx    0.000 Mbps  drops 0
+  s1 port 3: rx    0.000 Mbps  tx    2.089 Mbps  drops 0
+[flows] switch s1  mix: UDP 100%, ICMP 0%, TCP 0%
+  UDP  10.0.0.1:38378 -> 10.0.0.3:5001     2.070 Mbps  (1147 pkts)
+[ports] switch s2
+  s2 port 1: rx    0.000 Mbps  tx    2.089 Mbps  drops 0
+  s2 port 3: rx    2.089 Mbps  tx    0.000 Mbps  drops 0
+[flows] switch s2  mix: UDP 100%, ICMP 0%, TCP 0%
+  UDP  10.0.0.1:38378 -> 10.0.0.3:5001     2.070 Mbps  (1147 pkts)
+[ports] switch s1
+  s1 port 1: rx    2.071 Mbps  tx    0.000 Mbps  drops 0
+  s1 port 3: rx    0.000 Mbps  tx    2.071 Mbps  drops 0
+[flows] switch s1  mix: UDP 100%, ICMP 0%, TCP 0%
+  UDP  10.0.0.1:38378 -> 10.0.0.3:5001     2.076 Mbps  (1565 pkts)
+[ports] switch s2
+  s2 port 1: rx    0.000 Mbps  tx    2.071 Mbps  drops 0
+  s2 port 3: rx    2.071 Mbps  tx    0.000 Mbps  drops 0
+[flows] switch s2  mix: UDP 100%, ICMP 0%, TCP 0%
+  UDP  10.0.0.1:38378 -> 10.0.0.3:5001     2.076 Mbps  (1565 pkts)
+[ports] switch s1
+  s1 port 1: rx    0.398 Mbps  tx    0.003 Mbps  drops 0
+  s1 port 3: rx    0.003 Mbps  tx    0.398 Mbps  drops 0
+[flows] switch s1  mix: UDP 100%, TCP 0%, ICMP 0%
+  UDP  10.0.0.1:38378 -> 10.0.0.3:5001     0.501 Mbps  (1666 pkts)
+[ports] switch s2
+  s2 port 1: rx    0.003 Mbps  tx    0.398 Mbps  drops 0
+  s2 port 3: rx    0.398 Mbps  tx    0.003 Mbps  drops 0
+[flows] switch s2  mix: UDP 100%, TCP 0%, ICMP 0%
+  UDP  10.0.0.1:38378 -> 10.0.0.3:5001     0.501 Mbps  (1666 pkts)
+[ports] switch s1
+  s1 port 1: rx    2.289 Mbps  tx    0.001 Mbps  drops 0
+  s1 port 3: rx    0.001 Mbps  tx    2.289 Mbps  drops 0
+[ports] switch s2
+  s2 port 1: rx    0.001 Mbps  tx    2.285 Mbps  drops 0
+  s2 port 3: rx    2.290 Mbps  tx    0.001 Mbps  drops 0
+[ports] switch s1
+  s1 port 1: rx    4.137 Mbps  tx    0.000 Mbps  drops 0
+  s1 port 3: rx    0.000 Mbps  tx    4.135 Mbps  drops 0
+[flows] switch s1  mix: UDP 100%, TCP 0%, ICMP 0%
+  UDP  10.0.0.1:50035 -> 10.0.0.3:5001     4.135 Mbps  (1255 pkts)
+[ports] switch s2
+  s2 port 1: rx    0.000 Mbps  tx    4.140 Mbps  drops 0
+  s2 port 3: rx    4.135 Mbps  tx    0.000 Mbps  drops 0
+[flows] switch s2  mix: UDP 100%, TCP 0%, ICMP 0%
+  UDP  10.0.0.1:50035 -> 10.0.0.3:5001     4.137 Mbps  (1255 pkts)
+[ports] switch s1
+  s1 port 1: rx    4.139 Mbps  tx    0.000 Mbps  drops 0
+  s1 port 3: rx    0.000 Mbps  tx    4.141 Mbps  drops 0
+[flows] switch s1  mix: UDP 100%, TCP 0%, ICMP 0%
+  UDP  10.0.0.1:50035 -> 10.0.0.3:5001     4.141 Mbps  (2089 pkts)
+[ports] switch s2
+  s2 port 1: rx    0.000 Mbps  tx    4.141 Mbps  drops 0
+  s2 port 3: rx    4.141 Mbps  tx    0.000 Mbps  drops 0
+[flows] switch s2  mix: UDP 100%, TCP 0%, ICMP 0%
+  UDP  10.0.0.1:50035 -> 10.0.0.3:5001     4.141 Mbps  (2089 pkts)
+[ports] switch s1
+  s1 port 1: rx    4.144 Mbps  tx    0.000 Mbps  drops 0
+  s1 port 3: rx    0.000 Mbps  tx    4.144 Mbps  drops 0
+[flows] switch s1  mix: UDP 100%, TCP 0%, ICMP 0%
+  UDP  10.0.0.1:50035 -> 10.0.0.3:5001     4.144 Mbps  (2924 pkts)
+[ports] switch s2
+  s2 port 1: rx    0.000 Mbps  tx    4.144 Mbps  drops 0
+  s2 port 3: rx    4.144 Mbps  tx    0.000 Mbps  drops 0
+[flows] switch s2  mix: UDP 100%, TCP 0%, ICMP 0%
+  UDP  10.0.0.1:50035 -> 10.0.0.3:5001     4.144 Mbps  (2924 pkts)
+[ports] switch s1
+  s1 port 1: rx    1.837 Mbps  tx    0.003 Mbps  drops 0
+  s1 port 3: rx    0.003 Mbps  tx    1.837 Mbps  drops 0
+[flows] switch s1  mix: UDP 100%, TCP 0%, ICMP 0%
+  UDP  10.0.0.1:50035 -> 10.0.0.3:5001     2.029 Mbps  (3333 pkts)
+[ports] switch s2
+  s2 port 1: rx    0.003 Mbps  tx    1.837 Mbps  drops 0
+  s2 port 3: rx    1.837 Mbps  tx    0.003 Mbps  drops 0
+[flows] switch s2  mix: UDP 100%, TCP 0%, ICMP 0%
+  UDP  10.0.0.1:50035 -> 10.0.0.3:5001     2.029 Mbps  (3333 pkts)
+[ports] switch s1
+  s1 port 1: rx    1.872 Mbps  tx    0.001 Mbps  drops 0
+  s1 port 3: rx    0.001 Mbps  tx    1.872 Mbps  drops 0
+[ports] switch s2
+  s2 port 1: rx    0.001 Mbps  tx    1.872 Mbps  drops 0
+  s2 port 3: rx    1.872 Mbps  tx    0.001 Mbps  drops 0
+[ports] switch s1
+  s1 port 1: rx    6.212 Mbps  tx    0.000 Mbps  drops 0
+  s1 port 3: rx    0.000 Mbps  tx    6.212 Mbps  drops 0
+[flows] switch s1  mix: UDP 100%, TCP 0%, ICMP 0%
+  UDP  10.0.0.1:55813 -> 10.0.0.3:5001     6.209 Mbps  (1571 pkts)
+[ports] switch s2
+  s2 port 1: rx    0.000 Mbps  tx    6.209 Mbps  drops 0
+  s2 port 3: rx    6.209 Mbps  tx    0.000 Mbps  drops 0
+[flows] switch s2  mix: UDP 100%, TCP 0%, ICMP 0%
+  UDP  10.0.0.1:55813 -> 10.0.0.3:5001     6.209 Mbps  (1571 pkts)
+[ports] switch s1
+  s1 port 1: rx    6.209 Mbps  tx    0.000 Mbps  drops 0
+  s1 port 3: rx    0.000 Mbps  tx    6.209 Mbps  drops 0
+[flows] switch s1  mix: UDP 100%, TCP 0%, ICMP 0%
+  UDP  10.0.0.1:55813 -> 10.0.0.3:5001     6.212 Mbps  (2822 pkts)
+[ports] switch s2
+  s2 port 1: rx    0.000 Mbps  tx    6.207 Mbps  drops 0
+  s2 port 3: rx    6.212 Mbps  tx    0.000 Mbps  drops 0
+[flows] switch s2  mix: UDP 100%, TCP 0%, ICMP 0%
+  UDP  10.0.0.1:55813 -> 10.0.0.3:5001     6.172 Mbps  (2814 pkts)
+[ports] switch s1
+  s1 port 1: rx    6.212 Mbps  tx    0.000 Mbps  drops 0
+  s1 port 3: rx    0.000 Mbps  tx    6.212 Mbps  drops 0
+[flows] switch s1  mix: UDP 100%, TCP 0%
+  UDP  10.0.0.1:55813 -> 10.0.0.3:5001     6.232 Mbps  (4077 pkts)
+[ports] switch s2
+  s2 port 1: rx    0.000 Mbps  tx    6.217 Mbps  drops 0
+  s2 port 3: rx    6.212 Mbps  tx    0.000 Mbps  drops 0
+[flows] switch s2  mix: UDP 100%, TCP 0%
+  UDP  10.0.0.1:55813 -> 10.0.0.3:5001     6.268 Mbps  (4077 pkts)
+[ports] switch s1
+  s1 port 1: rx    4.317 Mbps  tx    0.003 Mbps  drops 0
+  s1 port 3: rx    0.003 Mbps  tx    4.317 Mbps  drops 0
+[flows] switch s1  mix: UDP 100%, TCP 0%
+  UDP  10.0.0.1:55813 -> 10.0.0.3:5001     4.574 Mbps  (4999 pkts)
+[ports] switch s2
+  s2 port 1: rx    0.003 Mbps  tx    4.317 Mbps  drops 0
+  s2 port 3: rx    4.317 Mbps  tx    0.003 Mbps  drops 0
+[flows] switch s2  mix: UDP 100%, TCP 0%
+  UDP  10.0.0.1:55813 -> 10.0.0.3:5001     4.576 Mbps  (4999 pkts)
+[ports] switch s1
+  s1 port 1: rx    0.408 Mbps  tx    0.001 Mbps  drops 0
+  s1 port 3: rx    0.001 Mbps  tx    0.408 Mbps  drops 0
+[ports] switch s2
+  s2 port 1: rx    0.001 Mbps  tx    0.408 Mbps  drops 0
+  s2 port 3: rx    0.408 Mbps  tx    0.001 Mbps  drops 0
+[ports] switch s1
+  s1 port 1: rx    8.284 Mbps  tx    0.000 Mbps  drops 0
+  s1 port 3: rx    0.000 Mbps  tx    8.279 Mbps  drops 0
+[flows] switch s1  mix: UDP 100%, TCP 0%
+  UDP  10.0.0.1:49317 -> 10.0.0.3:5001     8.279 Mbps  (1675 pkts)
+[ports] switch s2
+  s2 port 1: rx    0.000 Mbps  tx    8.274 Mbps  drops 0
+  s2 port 3: rx    8.279 Mbps  tx    0.000 Mbps  drops 0
+[flows] switch s2  mix: UDP 100%, TCP 0%
+  UDP  10.0.0.1:49317 -> 10.0.0.3:5001     8.279 Mbps  (1675 pkts)
+[ports] switch s1
+  s1 port 1: rx    8.278 Mbps  tx    0.000 Mbps  drops 0
+  s1 port 3: rx    0.000 Mbps  tx    8.282 Mbps  drops 0
+[flows] switch s1  mix: UDP 100%, TCP 0%
+  UDP  10.0.0.1:49317 -> 10.0.0.3:5001     8.282 Mbps  (3343 pkts)
+[ports] switch s2
+  s2 port 1: rx    0.000 Mbps  tx    8.287 Mbps  drops 0
+  s2 port 3: rx    8.282 Mbps  tx    0.000 Mbps  drops 0
+[flows] switch s2  mix: UDP 100%, TCP 0%
+  UDP  10.0.0.1:49317 -> 10.0.0.3:5001     8.282 Mbps  (3343 pkts)
+[ports] switch s1
+  s1 port 1: rx    8.279 Mbps  tx    0.000 Mbps  drops 0
+  s1 port 3: rx    0.000 Mbps  tx    8.279 Mbps  drops 0
+[flows] switch s1  mix: UDP 100%, TCP 0%
+  UDP  10.0.0.1:49317 -> 10.0.0.3:5001     8.269 Mbps  (5010 pkts)
+[ports] switch s2
+  s2 port 1: rx    0.000 Mbps  tx    8.279 Mbps  drops 0
+  s2 port 3: rx    8.279 Mbps  tx    0.000 Mbps  drops 0
+[flows] switch s2  mix: UDP 100%, TCP 0%
+  UDP  10.0.0.1:49317 -> 10.0.0.3:5001     8.269 Mbps  (5010 pkts)
+[ports] switch s1
+  s1 port 1: rx    7.833 Mbps  tx    0.000 Mbps  drops 0
+  s1 port 3: rx    0.000 Mbps  tx    7.833 Mbps  drops 0
+[flows] switch s1  mix: UDP 100%, TCP 0%
+  UDP  10.0.0.1:49317 -> 10.0.0.3:5001     8.215 Mbps  (6666 pkts)
+[ports] switch s2
+  s2 port 1: rx    0.000 Mbps  tx    7.833 Mbps  drops 0
+  s2 port 3: rx    7.833 Mbps  tx    0.000 Mbps  drops 0
+[flows] switch s2  mix: UDP 100%, TCP 0%
+  UDP  10.0.0.1:49317 -> 10.0.0.3:5001     8.215 Mbps  (6666 pkts)
+[ports] switch s1
+  s1 port 1: rx    7.445 Mbps  tx    0.001 Mbps  drops 0
+  s1 port 3: rx    0.001 Mbps  tx    7.445 Mbps  drops 0
+[ports] switch s2
+  s2 port 1: rx    0.001 Mbps  tx    7.440 Mbps  drops 0
+  s2 port 3: rx    7.445 Mbps  tx    0.001 Mbps  drops 0
+[ports] switch s1
+  s1 port 1: rx    9.316 Mbps  tx    0.000 Mbps  drops 0
+  s1 port 3: rx    0.000 Mbps  tx    9.316 Mbps  drops 0
+[flows] switch s1  mix: UDP 100%, TCP 0%
+  UDP  10.0.0.1:41926 -> 10.0.0.3:5001     9.311 Mbps  (3291 pkts)
+[ports] switch s2
+  s2 port 1: rx    0.000 Mbps  tx    9.321 Mbps  drops 0
+  s2 port 3: rx    9.316 Mbps  tx    0.000 Mbps  drops 0
+[flows] switch s2  mix: UDP 100%, TCP 0%
+  UDP  10.0.0.1:41926 -> 10.0.0.3:5001     9.311 Mbps  (3291 pkts)
+[ports] switch s1
+  s1 port 1: rx    9.315 Mbps  tx    0.000 Mbps  drops 0
+  s1 port 3: rx    0.000 Mbps  tx    9.315 Mbps  drops 0
+[flows] switch s1  mix: UDP 100%, TCP 0%
+  UDP  10.0.0.1:41926 -> 10.0.0.3:5001     9.315 Mbps  (5167 pkts)
+[ports] switch s2
+  s2 port 1: rx    0.000 Mbps  tx    9.315 Mbps  drops 0
+  s2 port 3: rx    9.315 Mbps  tx    0.000 Mbps  drops 0
+[flows] switch s2  mix: UDP 100%, TCP 0%
+  UDP  10.0.0.1:41926 -> 10.0.0.3:5001     9.315 Mbps  (5167 pkts)
+[ports] switch s1
+  s1 port 1: rx    9.315 Mbps  tx    0.000 Mbps  drops 0
+  s1 port 3: rx    0.000 Mbps  tx    9.315 Mbps  drops 0
+[flows] switch s1  mix: UDP 100%, TCP 0%
+  UDP  10.0.0.1:41926 -> 10.0.0.3:5001     9.365 Mbps  (7053 pkts)
+[ports] switch s2
+  s2 port 1: rx    0.000 Mbps  tx    9.315 Mbps  drops 0
+  s2 port 3: rx    9.315 Mbps  tx    0.000 Mbps  drops 0
+[flows] switch s2  mix: UDP 100%, TCP 0%
+  UDP  10.0.0.1:41926 -> 10.0.0.3:5001     9.365 Mbps  (7053 pkts)
+[ports] switch s1
+  s1 port 1: rx    1.848 Mbps  tx    0.003 Mbps  drops 0
+  s1 port 3: rx    0.003 Mbps  tx    1.848 Mbps  drops 0
+[flows] switch s1  mix: UDP 100%, TCP 0%
+  UDP  10.0.0.1:41926 -> 10.0.0.3:5001     2.214 Mbps  (7499 pkts)
+[ports] switch s2
+  s2 port 1: rx    0.003 Mbps  tx    1.848 Mbps  drops 0
+  s2 port 3: rx    1.848 Mbps  tx    0.003 Mbps  drops 0
+[flows] switch s2  mix: UDP 100%, TCP 0%
+  UDP  10.0.0.1:41926 -> 10.0.0.3:5001     2.214 Mbps  (7499 pkts)
+[ports] switch s1
+  s1 port 1: rx    5.659 Mbps  tx    0.001 Mbps  drops 0
+  s1 port 3: rx    0.001 Mbps  tx    5.471 Mbps  drops 0
+[ports] switch s2
+  s2 port 1: rx    0.001 Mbps  tx    5.471 Mbps  drops 0
+  s2 port 3: rx    5.471 Mbps  tx    0.001 Mbps  drops 0
+[ports] switch s1
+  s1 port 1: rx   10.358 Mbps  tx    0.000 Mbps  drops 0
+  s1 port 3: rx    0.000 Mbps  tx    9.916 Mbps  drops 0
+[flows] switch s1  mix: UDP 100%, TCP 0%
+  UDP  10.0.0.1:34253 -> 10.0.0.3:5001    10.358 Mbps  (3136 pkts)
+[ports] switch s2
+  s2 port 1: rx    0.000 Mbps  tx    9.876 Mbps  drops 0
+  s2 port 3: rx    9.916 Mbps  tx    0.000 Mbps  drops 0
+[flows] switch s2  mix: UDP 100%, TCP 0%
+  UDP  10.0.0.1:34253 -> 10.0.0.3:5001     9.921 Mbps  (3013 pkts)
+[ports] switch s1
+  s1 port 1: rx   10.348 Mbps  tx    0.000 Mbps  drops 0
+  s1 port 3: rx    0.000 Mbps  tx    9.981 Mbps  drops 0
+[flows] switch s1  mix: UDP 100%, TCP 0%
+  UDP  10.0.0.1:34253 -> 10.0.0.3:5001    10.358 Mbps  (5222 pkts)
+[ports] switch s2
+  s2 port 1: rx    0.000 Mbps  tx    9.901 Mbps  drops 0
+  s2 port 3: rx    9.981 Mbps  tx    0.000 Mbps  drops 0
+[flows] switch s2  mix: UDP 100%, TCP 0%
+  UDP  10.0.0.1:34253 -> 10.0.0.3:5001     9.986 Mbps  (5024 pkts)
+[ports] switch s1
+  s1 port 1: rx   10.348 Mbps  tx    0.000 Mbps  drops 0
+  s1 port 3: rx    0.000 Mbps  tx    9.787 Mbps  drops 0
+[flows] switch s1  mix: UDP 100%, TCP 0%
+  UDP  10.0.0.1:34253 -> 10.0.0.3:5001    10.397 Mbps  (7318 pkts)
+[ports] switch s2
+  s2 port 1: rx    0.000 Mbps  tx    9.698 Mbps  drops 0
+  s2 port 3: rx    9.787 Mbps  tx    0.000 Mbps  drops 0
+[flows] switch s2  mix: UDP 100%, TCP 0%
+  UDP  10.0.0.1:34253 -> 10.0.0.3:5001     9.842 Mbps  (7007 pkts)
+[ports] switch s1
+  s1 port 1: rx    4.659 Mbps  tx    0.003 Mbps  drops 0
+  s1 port 3: rx    0.003 Mbps  tx    4.957 Mbps  drops 0
+[flows] switch s1  mix: UDP 100%, TCP 0%
+  UDP  10.0.0.1:34253 -> 10.0.0.3:5001     5.040 Mbps  (8333 pkts)
+[ports] switch s2
+  s2 port 1: rx    0.003 Mbps  tx    4.897 Mbps  drops 0
+  s2 port 3: rx    4.957 Mbps  tx    0.003 Mbps  drops 0
+[flows] switch s2  mix: UDP 100%, TCP 0%
+  UDP  10.0.0.1:34253 -> 10.0.0.3:5001     5.323 Mbps  (8079 pkts)
+[ports] switch s1
+  s1 port 1: rx    2.842 Mbps  tx    0.001 Mbps  drops 0
+  s1 port 3: rx    0.001 Mbps  tx    2.494 Mbps  drops 0
+[ports] switch s2
+  s2 port 1: rx    0.001 Mbps  tx    2.494 Mbps  drops 0
+  s2 port 3: rx    2.494 Mbps  tx    0.001 Mbps  drops 0
+[ports] switch s1
+  s1 port 1: rx   11.385 Mbps  tx    0.000 Mbps  drops 0
+  s1 port 3: rx    0.000 Mbps  tx    9.996 Mbps  drops 0
+[flows] switch s1  mix: UDP 100%, TCP 0%
+  UDP  10.0.0.1:50718 -> 10.0.0.3:5001    11.380 Mbps  (2302 pkts)
+[ports] switch s2
+  s2 port 1: rx    0.000 Mbps  tx    9.852 Mbps  drops 0
+  s2 port 3: rx   10.001 Mbps  tx    0.000 Mbps  drops 0
+[flows] switch s2  mix: UDP 100%, TCP 0%
+  UDP  10.0.0.1:50718 -> 10.0.0.3:5001     9.996 Mbps  (2022 pkts)
+[ports] switch s1
+  s1 port 1: rx   11.380 Mbps  tx    0.000 Mbps  drops 0
+  s1 port 3: rx    0.000 Mbps  tx    9.971 Mbps  drops 0
+[flows] switch s1  mix: UDP 100%, TCP 0%
+  UDP  10.0.0.1:50718 -> 10.0.0.3:5001    11.380 Mbps  (4595 pkts)
+[ports] switch s2
+  s2 port 1: rx    0.000 Mbps  tx    9.847 Mbps  drops 0
+  s2 port 3: rx    9.966 Mbps  tx    0.000 Mbps  drops 0
+[flows] switch s2  mix: UDP 100%, TCP 0%
+  UDP  10.0.0.1:50718 -> 10.0.0.3:5001     9.986 Mbps  (4034 pkts)
+[ports] switch s1
+  s1 port 1: rx   11.386 Mbps  tx    0.000 Mbps  drops 0
+  s1 port 3: rx    0.000 Mbps  tx    9.936 Mbps  drops 0
+[flows] switch s1  mix: UDP 100%, TCP 0%
+  UDP  10.0.0.1:50718 -> 10.0.0.3:5001    11.396 Mbps  (6890 pkts)
+[ports] switch s2
+  s2 port 1: rx    0.000 Mbps  tx    9.822 Mbps  drops 0
+  s2 port 3: rx    9.941 Mbps  tx    0.000 Mbps  drops 0
+[flows] switch s2  mix: UDP 100%, TCP 0%
+  UDP  10.0.0.1:50718 -> 10.0.0.3:5001     9.921 Mbps  (6032 pkts)
+[ports] switch s1
+  s1 port 1: rx    8.508 Mbps  tx    0.000 Mbps  drops 0
+  s1 port 3: rx    0.000 Mbps  tx    7.674 Mbps  drops 0
+[flows] switch s1  mix: UDP 100%, TCP 0%
+  UDP  10.0.0.1:50718 -> 10.0.0.3:5001    11.290 Mbps  (9166 pkts)
+[ports] switch s2
+  s2 port 1: rx    0.000 Mbps  tx    7.531 Mbps  drops 0
+  s2 port 3: rx    7.670 Mbps  tx    0.000 Mbps  drops 0
+[flows] switch s2  mix: UDP 100%, TCP 0%
+  UDP  10.0.0.1:50718 -> 10.0.0.3:5001     9.787 Mbps  (8005 pkts)
+[flows] switch s2  mix: UDP 100%, TCP 0%
+  UDP  10.0.0.1:50718 -> 10.0.0.3:5001     0.333 Mbps  (8072 pkts)
+[ports] switch s2
+  s2 port 1: rx    0.001 Mbps  tx    9.386 Mbps  drops 0
+  s2 port 3: rx    9.510 Mbps  tx    0.001 Mbps  drops 0
+[ports] switch s1
+  s1 port 1: rx   11.829 Mbps  tx    0.001 Mbps  drops 0
+  s1 port 3: rx    0.001 Mbps  tx    9.505 Mbps  drops 0
+[ports] switch s1
+  s1 port 1: rx   12.422 Mbps  tx    0.000 Mbps  drops 0
+  s1 port 3: rx    0.000 Mbps  tx    9.986 Mbps  drops 0
+[flows] switch s1  mix: UDP 100%, TCP 0%
+  UDP  10.0.0.1:54844 -> 10.0.0.3:5001    12.422 Mbps  (4389 pkts)
+[ports] switch s2
+  s2 port 1: rx    0.000 Mbps  tx    9.782 Mbps  drops 0
+  s2 port 3: rx    9.981 Mbps  tx    0.000 Mbps  drops 0
+[flows] switch s2  mix: UDP 100%, TCP 0%
+  UDP  10.0.0.1:54844 -> 10.0.0.3:5001     9.991 Mbps  (3528 pkts)
+[ports] switch s1
+  s1 port 1: rx   12.413 Mbps  tx    0.000 Mbps  drops 0
+  s1 port 3: rx    0.000 Mbps  tx    9.956 Mbps  drops 0
+[flows] switch s1  mix: UDP 100%, TCP 0%
+  UDP  10.0.0.1:54844 -> 10.0.0.3:5001    12.422 Mbps  (6892 pkts)
+[ports] switch s2
+  s2 port 1: rx    0.000 Mbps  tx    9.777 Mbps  drops 0
+  s2 port 3: rx    9.956 Mbps  tx    0.000 Mbps  drops 0
+[flows] switch s2  mix: UDP 100%, TCP 0%
+  UDP  10.0.0.1:54844 -> 10.0.0.3:5001     9.961 Mbps  (5535 pkts)
+[ports] switch s2
+  s2 port 1: rx    0.000 Mbps  tx    9.762 Mbps  drops 0
+  s2 port 3: rx    9.936 Mbps  tx    0.000 Mbps  drops 0
+[flows] switch s2  mix: UDP 100%, TCP 0%
+  UDP  10.0.0.1:54844 -> 10.0.0.3:5001     9.991 Mbps  (7548 pkts)
+[ports] switch s1
+  s1 port 1: rx   12.429 Mbps  tx    0.000 Mbps  drops 0
+  s1 port 3: rx    0.000 Mbps  tx    9.941 Mbps  drops 0
+[flows] switch s1  mix: UDP 100%, TCP 0%
+  UDP  10.0.0.1:54844 -> 10.0.0.3:5001    12.498 Mbps  (9409 pkts)
+[ports] switch s1
+  s1 port 1: rx    0.552 Mbps  tx    0.003 Mbps  drops 0
+  s1 port 3: rx    0.003 Mbps  tx    0.909 Mbps  drops 0
+[flows] switch s1  mix: UDP 100%, TCP 0%
+  UDP  10.0.0.1:54844 -> 10.0.0.3:5001     2.927 Mbps  (9999 pkts)
+[ports] switch s2
+  s2 port 1: rx    0.003 Mbps  tx    0.904 Mbps  drops 0
+  s2 port 3: rx    0.909 Mbps  tx    0.003 Mbps  drops 0
+[flows] switch s2  mix: UDP 100%, TCP 0%
+  UDP  10.0.0.1:54844 -> 10.0.0.3:5001     2.818 Mbps  (8116 pkts)
+[ports] switch s1
+  s1 port 1: rx   10.161 Mbps  tx    0.001 Mbps  drops 0
+  s1 port 3: rx    0.001 Mbps  tx    6.523 Mbps  drops 0
+[ports] switch s2
+  s2 port 1: rx    0.001 Mbps  tx    6.382 Mbps  drops 0
+  s2 port 3: rx    6.531 Mbps  tx    0.001 Mbps  drops 0
+[ports] switch s1
+  s1 port 1: rx   15.527 Mbps  tx    0.000 Mbps  drops 0
+  s1 port 3: rx    0.000 Mbps  tx    9.981 Mbps  drops 0
+[flows] switch s1  mix: UDP 100%, TCP 0%
+  UDP  10.0.0.1:35762 -> 10.0.0.3:5001    15.527 Mbps  (4713 pkts)
+[ports] switch s2
+  s2 port 1: rx    0.000 Mbps  tx    9.713 Mbps  drops 0
+  s2 port 3: rx    9.971 Mbps  tx    0.000 Mbps  drops 0
+[flows] switch s2  mix: UDP 100%, TCP 0%
+  UDP  10.0.0.1:35762 -> 10.0.0.3:5001     9.966 Mbps  (3026 pkts)
+[ports] switch s1
+  s1 port 1: rx   15.522 Mbps  tx    0.000 Mbps  drops 0
+  s1 port 3: rx    0.000 Mbps  tx    9.762 Mbps  drops 0
+[flows] switch s1  mix: UDP 100%, TCP 0%
+  UDP  10.0.0.1:35762 -> 10.0.0.3:5001    15.522 Mbps  (7842 pkts)
+[ports] switch s2
+  s2 port 1: rx    0.000 Mbps  tx    9.450 Mbps  drops 0
+  s2 port 3: rx    9.767 Mbps  tx    0.000 Mbps  drops 0
+[flows] switch s2  mix: UDP 100%, TCP 0%
+  UDP  10.0.0.1:35762 -> 10.0.0.3:5001     9.857 Mbps  (5012 pkts)
+[ports] switch s1
+  s1 port 1: rx   15.527 Mbps  tx    0.000 Mbps  drops 0
+  s1 port 3: rx    0.000 Mbps  tx    9.986 Mbps  drops 0
+[flows] switch s1  mix: UDP 100%, TCP 0%
+  UDP  10.0.0.1:35762 -> 10.0.0.3:5001    15.612 Mbps  (10986 pkts)
+[ports] switch s2
+  s2 port 1: rx    0.000 Mbps  tx    9.737 Mbps  drops 0
+  s2 port 3: rx    9.986 Mbps  tx    0.000 Mbps  drops 0
+[flows] switch s2  mix: UDP 100%, TCP 0%
+  UDP  10.0.0.1:35762 -> 10.0.0.3:5001     9.946 Mbps  (7015 pkts)
+[ports] switch s1
+  s1 port 1: rx    5.312 Mbps  tx    0.003 Mbps  drops 0
+  s1 port 3: rx    0.003 Mbps  tx    3.818 Mbps  drops 0
+[flows] switch s1  mix: UDP 100%, TCP 0%
+  UDP  10.0.0.1:35762 -> 10.0.0.3:5001     7.509 Mbps  (12499 pkts)
+[ports] switch s2
+  s2 port 1: rx    0.003 Mbps  tx    3.727 Mbps  drops 0
+  s2 port 3: rx    3.816 Mbps  tx    0.003 Mbps  drops 0
+[flows] switch s2  mix: UDP 100%, TCP 0%
+  UDP  10.0.0.1:35762 -> 10.0.0.3:5001     5.228 Mbps  (8069 pkts)
+[ports] switch s2
+  s2 port 1: rx    0.001 Mbps  tx    3.315 Mbps  drops 0
+  s2 port 3: rx    3.424 Mbps  tx    0.001 Mbps  drops 0
+[ports] switch s1
+  s1 port 1: rx    7.395 Mbps  tx    0.001 Mbps  drops 0
+  s1 port 3: rx    0.001 Mbps  tx    3.422 Mbps  drops 0
+[ports] switch s1
+  s1 port 1: rx   20.696 Mbps  tx    0.000 Mbps  drops 0
+  s1 port 3: rx    0.000 Mbps  tx    9.986 Mbps  drops 0
+[flows] switch s1  mix: UDP 100%, TCP 0%
+  UDP  10.0.0.1:37376 -> 10.0.0.3:5001    20.701 Mbps  (5246 pkts)
+[ports] switch s2
+  s2 port 1: rx    0.000 Mbps  tx    9.623 Mbps  drops 0
+  s2 port 3: rx    9.991 Mbps  tx    0.000 Mbps  drops 0
+[flows] switch s2  mix: UDP 100%, TCP 0%
+  UDP  10.0.0.1:37376 -> 10.0.0.3:5001     9.881 Mbps  (2505 pkts)
+[ports] switch s2
+  s2 port 1: rx    0.000 Mbps  tx    9.633 Mbps  drops 0
+  s2 port 3: rx    9.996 Mbps  tx    0.000 Mbps  drops 0
+[flows] switch s2  mix: UDP 100%, TCP 0%
+  UDP  10.0.0.1:37376 -> 10.0.0.3:5001     9.986 Mbps  (4517 pkts)
+[ports] switch s1
+  s1 port 1: rx   20.696 Mbps  tx    0.000 Mbps  drops 0
+  s1 port 3: rx    0.000 Mbps  tx   10.001 Mbps  drops 0
+[flows] switch s1  mix: UDP 100%, TCP 0%
+  UDP  10.0.0.1:37376 -> 10.0.0.3:5001    20.691 Mbps  (9415 pkts)
+[ports] switch s1
+  s1 port 1: rx   20.706 Mbps  tx    0.000 Mbps  drops 0
+  s1 port 3: rx    0.000 Mbps  tx    9.986 Mbps  drops 0
+[flows] switch s1  mix: UDP 100%, TCP 0%
+  UDP  10.0.0.1:37376 -> 10.0.0.3:5001    20.751 Mbps  (13594 pkts)
+[ports] switch s2
+  s2 port 1: rx    0.000 Mbps  tx    9.578 Mbps  drops 0
+  s2 port 3: rx    9.986 Mbps  tx    0.000 Mbps  drops 0
+[flows] switch s2  mix: UDP 100%, TCP 0%
+  UDP  10.0.0.1:37376 -> 10.0.0.3:5001    10.010 Mbps  (6533 pkts)
+[ports] switch s1
+  s1 port 1: rx   13.548 Mbps  tx    0.004 Mbps  drops 0
+  s1 port 2: rx    0.299 Mbps  tx    0.001 Mbps  drops 0
+  s1 port 3: rx    0.005 Mbps  tx    7.159 Mbps  drops 0
+[flows] switch s1  mix: UDP 100%, TCP 0%
+  UDP  10.0.0.1:37376 -> 10.0.0.3:5001    15.214 Mbps  (16658 pkts)
+[ports] switch s2
+  s2 port 1: rx    0.004 Mbps  tx    6.716 Mbps  drops 0
+  s2 port 2: rx    0.001 Mbps  tx    0.180 Mbps  drops 0
+  s2 port 3: rx    7.159 Mbps  tx    0.005 Mbps  drops 0
+[flows] switch s2  mix: UDP 100%, TCP 0%
+  UDP  10.0.0.1:37376 -> 10.0.0.3:5001     7.747 Mbps  (8094 pkts)
+[ports] switch s1
+  s1 port 1: rx    8.283 Mbps  tx    0.000 Mbps  drops 0
+  s1 port 2: rx    8.278 Mbps  tx    0.000 Mbps  drops 0
+  s1 port 3: rx    0.000 Mbps  tx   10.001 Mbps  drops 0
+[flows] switch s1  mix: UDP 100%, TCP 0%
+  UDP  10.0.0.2:52330 -> 10.0.0.4:5001     8.283 Mbps  (1676 pkts)
+  UDP  10.0.0.1:36696 -> 10.0.0.3:5001     8.278 Mbps  (1676 pkts)
+[ports] switch s2
+  s2 port 1: rx    0.000 Mbps  tx    2.634 Mbps  drops 0
+  s2 port 2: rx    0.000 Mbps  tx    4.985 Mbps  drops 0
+  s2 port 3: rx    9.996 Mbps  tx    0.000 Mbps  drops 0
+[flows] switch s2  mix: UDP 100%, TCP 0%
+  UDP  10.0.0.2:52330 -> 10.0.0.4:5001     6.899 Mbps  (1394 pkts)
+  UDP  10.0.0.1:36696 -> 10.0.0.3:5001     3.097 Mbps  (628 pkts)
+[ports] switch s2
+  s2 port 1: rx    0.000 Mbps  tx    2.467 Mbps  drops 0
+  s2 port 2: rx    0.000 Mbps  tx    4.973 Mbps  drops 0
+  s2 port 3: rx   10.001 Mbps  tx    0.000 Mbps  drops 0
+[flows] switch s2  mix: UDP 100%, TCP 0%
+  UDP  10.0.0.2:52330 -> 10.0.0.4:5001     7.191 Mbps  (2843 pkts)
+  UDP  10.0.0.1:36696 -> 10.0.0.3:5001     2.809 Mbps  (1194 pkts)
+[ports] switch s1
+  s1 port 1: rx    8.278 Mbps  tx    0.000 Mbps  drops 0
+  s1 port 2: rx    8.278 Mbps  tx    0.000 Mbps  drops 0
+  s1 port 3: rx    0.000 Mbps  tx   10.001 Mbps  drops 0
+[flows] switch s1  mix: UDP 100%, TCP 0%
+  UDP  10.0.0.1:36696 -> 10.0.0.3:5001     8.279 Mbps  (3345 pkts)
+  UDP  10.0.0.2:52330 -> 10.0.0.4:5001     8.274 Mbps  (3344 pkts)
+[ports] switch s1
+  s1 port 1: rx    8.278 Mbps  tx    0.000 Mbps  drops 0
+  s1 port 2: rx    8.283 Mbps  tx    0.000 Mbps  drops 0
+  s1 port 3: rx    0.000 Mbps  tx    9.886 Mbps  drops 0
+[ports] switch s2
+  s2 port 1: rx    0.000 Mbps  tx    2.345 Mbps  drops 0
+  s2 port 2: rx    0.000 Mbps  tx    5.167 Mbps  drops 0
+  s2 port 3: rx    9.891 Mbps  tx    0.000 Mbps  drops 0
+[flows] switch s2  mix: UDP 100%, TCP 0%
+  UDP  10.0.0.2:52330 -> 10.0.0.4:5001     7.126 Mbps  (4278 pkts)
+  UDP  10.0.0.1:36696 -> 10.0.0.3:5001     2.771 Mbps  (1752 pkts)
+[flows] switch s1  mix: UDP 100%, TCP 0%
+  UDP  10.0.0.2:52330 -> 10.0.0.4:5001     8.292 Mbps  (5013 pkts)
+  UDP  10.0.0.1:36696 -> 10.0.0.3:5001     8.287 Mbps  (5013 pkts)
+[ports] switch s2
+  s2 port 1: rx    0.000 Mbps  tx    2.050 Mbps  drops 0
+  s2 port 2: rx    0.000 Mbps  tx    5.196 Mbps  drops 0
+  s2 port 3: rx    9.842 Mbps  tx    0.000 Mbps  drops 0
+[flows] switch s2  mix: UDP 100%, TCP 0%
+  UDP  10.0.0.2:52330 -> 10.0.0.4:5001     7.230 Mbps  (5734 pkts)
+  UDP  10.0.0.1:36696 -> 10.0.0.3:5001     2.622 Mbps  (2280 pkts)
+[ports] switch s1
+  s1 port 1: rx    7.956 Mbps  tx    0.000 Mbps  drops 0
+  s1 port 2: rx    7.956 Mbps  tx    0.000 Mbps  drops 0
+  s1 port 3: rx    0.000 Mbps  tx    9.837 Mbps  drops 0
+[flows] switch s1  mix: UDP 100%, TCP 0%
+  UDP  10.0.0.2:52330 -> 10.0.0.4:5001     8.204 Mbps  (6666 pkts)
+  UDP  10.0.0.1:36696 -> 10.0.0.3:5001     8.204 Mbps  (6666 pkts)
+[ports] switch s1
+  s1 port 1: rx   13.664 Mbps  tx    0.004 Mbps  drops 0
+  s1 port 2: rx    0.002 Mbps  tx   13.666 Mbps  drops 0
+  s1 port 3: rx    0.006 Mbps  tx    0.077 Mbps  drops 0
+[ports] switch s2
+  s2 port 1: rx    0.003 Mbps  tx    0.021 Mbps  drops 0
+  s2 port 2: rx    0.003 Mbps  tx    0.056 Mbps  drops 0
+  s2 port 3: rx    0.072 Mbps  tx    0.006 Mbps  drops 0
+[flows] switch s2  mix: UDP 100%, TCP 0%
+  UDP  10.0.0.2:52330 -> 10.0.0.4:5001     0.253 Mbps  (5785 pkts)
+  UDP  10.0.0.1:36696 -> 10.0.0.3:5001     0.109 Mbps  (2302 pkts)
+[ports] switch s1
+  s1 port 1: rx   20.700 Mbps  tx    0.000 Mbps  drops 0
+  s1 port 2: rx    0.000 Mbps  tx   20.332 Mbps  drops 0
+[flows] switch s1  mix: UDP 100%, TCP 0%
+  UDP  10.0.0.1:39074 -> 10.0.0.2:5001    20.450 Mbps  (6310 pkts)
+[ports] switch s1
+  s1 port 1: rx   20.702 Mbps  tx    0.000 Mbps  drops 0
+  s1 port 2: rx    0.001 Mbps  tx   21.070 Mbps  drops 0
+[flows] switch s1  mix: UDP 100%, TCP 0%
+  UDP  10.0.0.1:39074 -> 10.0.0.2:5001    20.717 Mbps  (10480 pkts)
+[ports] switch s1
+  s1 port 1: rx   20.696 Mbps  tx    0.000 Mbps  drops 0
+  s1 port 2: rx    0.000 Mbps  tx   20.701 Mbps  drops 0
+[flows] switch s1  mix: UDP 100%, TCP 0%
+  UDP  10.0.0.1:39074 -> 10.0.0.2:5001    20.706 Mbps  (14652 pkts)
+[ports] switch s1
+  s1 port 1: rx    6.693 Mbps  tx    0.003 Mbps  drops 0
+  s1 port 2: rx    0.003 Mbps  tx    6.693 Mbps  drops 0
+[flows] switch s1  mix: UDP 100%, TCP 0%
+  UDP  10.0.0.1:39074 -> 10.0.0.2:5001     9.986 Mbps  (16665 pkts)
+[ports] switch s1
+  s1 port 1: rx   21.894 Mbps  tx    0.001 Mbps  drops 0
+  s1 port 2: rx    0.001 Mbps  tx   21.889 Mbps  drops 0
+[ports] switch s1
+  s1 port 1: rx   51.740 Mbps  tx    0.000 Mbps  drops 0
+  s1 port 2: rx    0.000 Mbps  tx   51.740 Mbps  drops 0
+[flows] switch s1  mix: UDP 100%, TCP 0%
+  UDP  10.0.0.1:50830 -> 10.0.0.2:5001    51.760 Mbps  (13173 pkts)
+[ports] switch s1
+  s1 port 1: rx   51.760 Mbps  tx    0.000 Mbps  drops 0
+  s1 port 2: rx    0.000 Mbps  tx   51.750 Mbps  drops 0
+[flows] switch s1  mix: UDP 100%, TCP 0%
+  UDP  10.0.0.1:50830 -> 10.0.0.2:5001    51.764 Mbps  (23603 pkts)
+[ports] switch s1
+  s1 port 1: rx   51.755 Mbps  tx    0.000 Mbps  drops 0
+  s1 port 2: rx    0.000 Mbps  tx   51.755 Mbps  drops 0
+[flows] switch s1  mix: UDP 100%, TCP 0%
+  UDP  10.0.0.1:50830 -> 10.0.0.2:5001    51.725 Mbps  (34025 pkts)
+switch 0000000000000001 disconnected
+switch 0000000000000002 disconnected

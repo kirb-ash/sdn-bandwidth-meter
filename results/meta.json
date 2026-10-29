@@ -1,0 +1,6 @@
+{
+  "bottleneck_mbps": 10,
+  "delay": "0ms",
+  "queue_pkts": 0,
+  "duration_s": 8.0
+}

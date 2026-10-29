@@ -1,0 +1,6 @@
+# controller (Python 3.8/3.9; install with --no-build-isolation, see README)
+ryu==4.34
+eventlet==0.30.2
+dnspython==1.16.0
+# analysis
+matplotlib>=3.5

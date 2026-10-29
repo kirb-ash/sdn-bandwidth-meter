@@ -1,0 +1,417 @@
+[
+  {
+    "label": "2.0 Mbps",
+    "server": "10.0.0.3",
+    "timestamp": "2026-10-29 17:06:01",
+    "sender": {
+      "test_id": 402375402,
+      "packets_sent": 1667,
+      "bytes_sent": 2000400,
+      "send_errors": 0,
+      "duration_s": 8.00175174200001,
+      "offered_mbps": 1.99996207280483,
+      "target_mbps": 2.0,
+      "pkt_size": 1200
+    },
+    "receiver": {
+      "test_id": 402375402,
+      "packets_received": 1667,
+      "packets_expected": 1667,
+      "packets_lost": 0,
+      "loss_pct": 0.0,
+      "duplicates": 0,
+      "reordered": 0,
+      "bytes_received": 2000400,
+      "receive_window_s": 7.993929862976074,
+      "goodput_mbps": 2.0019189903227574,
+      "jitter_ms": 0.07657971921722252,
+      "delay_avg_ms": 0.630307211873055,
+      "delay_min_ms": 0.225067138671875,
+      "delay_max_ms": 16.12067222595215,
+      "interval_s": 1.0,
+      "throughput_series_mbps": [
+        2.0064,
+        2.0064,
+        1.9968,
+        1.9968,
+        2.0064,
+        1.9968,
+        1.9968
+      ]
+    }
+  },
+  {
+    "label": "4.0 Mbps",
+    "server": "10.0.0.3",
+    "timestamp": "2026-10-29 17:06:12",
+    "sender": {
+      "test_id": 2062620942,
+      "packets_sent": 3334,
+      "bytes_sent": 4000800,
+      "send_errors": 0,
+      "duration_s": 8.001731628000016,
+      "offered_mbps": 3.99993420024258,
+      "target_mbps": 4.0,
+      "pkt_size": 1200
+    },
+    "receiver": {
+      "test_id": 2062620942,
+      "packets_received": 3334,
+      "packets_expected": 3334,
+      "packets_lost": 0,
+      "loss_pct": 0.0,
+      "duplicates": 0,
+      "reordered": 0,
+      "bytes_received": 4000800,
+      "receive_window_s": 7.997023820877075,
+      "goodput_mbps": 4.002288941098802,
+      "jitter_ms": 0.15525520524762595,
+      "delay_avg_ms": 1.456851078209651,
+      "delay_min_ms": 0.17690658569335938,
+      "delay_max_ms": 102.72359848022461,
+      "interval_s": 1.0,
+      "throughput_series_mbps": [
+        4.0128,
+        4.0032,
+        3.9936,
+        4.0032,
+        4.0032,
+        3.9936,
+        4.0032
+      ]
+    }
+  },
+  {
+    "label": "6.0 Mbps",
+    "server": "10.0.0.3",
+    "timestamp": "2026-10-29 17:06:22",
+    "sender": {
+      "test_id": 376455750,
+      "packets_sent": 5000,
+      "bytes_sent": 6000000,
+      "send_errors": 0,
+      "duration_s": 8.000127023000005,
+      "offered_mbps": 5.999904734262614,
+      "target_mbps": 6.0,
+      "pkt_size": 1200
+    },
+    "receiver": {
+      "test_id": 376455750,
+      "packets_received": 5000,
+      "packets_expected": 5000,
+      "packets_lost": 0,
+      "loss_pct": 0.0,
+      "duplicates": 0,
+      "reordered": 0,
+      "bytes_received": 6000000,
+      "receive_window_s": 7.993739366531372,
+      "goodput_mbps": 6.004699152560446,
+      "jitter_ms": 0.13835005043438034,
+      "delay_avg_ms": 1.2443574905395507,
+      "delay_min_ms": 0.12254714965820312,
+      "delay_max_ms": 60.23430824279785,
+      "interval_s": 1.0,
+      "throughput_series_mbps": [
+        6.0288,
+        6.0,
+        6.0,
+        6.0,
+        6.0,
+        6.0,
+        5.9808
+      ]
+    }
+  },
+  {
+    "label": "8.0 Mbps",
+    "server": "10.0.0.3",
+    "timestamp": "2026-10-29 17:06:33",
+    "sender": {
+      "test_id": 1543243099,
+      "packets_sent": 6667,
+      "bytes_sent": 8000400,
+      "send_errors": 0,
+      "duration_s": 8.000488824000058,
+      "offered_mbps": 7.999911181427024,
+      "target_mbps": 8.0,
+      "pkt_size": 1200
+    },
+    "receiver": {
+      "test_id": 1543243099,
+      "packets_received": 6667,
+      "packets_expected": 6667,
+      "packets_lost": 0,
+      "loss_pct": 0.0,
+      "duplicates": 0,
+      "reordered": 0,
+      "bytes_received": 8000400,
+      "receive_window_s": 7.997350454330444,
+      "goodput_mbps": 8.003050555992983,
+      "jitter_ms": 0.1504037186506702,
+      "delay_avg_ms": 0.6061832962390882,
+      "delay_min_ms": 0.09989738464355469,
+      "delay_max_ms": 26.55482292175293,
+      "interval_s": 1.0,
+      "throughput_series_mbps": [
+        8.016,
+        8.0064,
+        7.9968,
+        7.9968,
+        8.0064,
+        7.9968,
+        7.9968
+      ]
+    }
+  },
+  {
+    "label": "9.0 Mbps",
+    "server": "10.0.0.3",
+    "timestamp": "2026-10-29 17:06:44",
+    "sender": {
+      "test_id": 1345954060,
+      "packets_sent": 7500,
+      "bytes_sent": 9000000,
+      "send_errors": 0,
+      "duration_s": 8.000111664999963,
+      "offered_mbps": 8.999874378628482,
+      "target_mbps": 9.0,
+      "pkt_size": 1200
+    },
+    "receiver": {
+      "test_id": 1345954060,
+      "packets_received": 7500,
+      "packets_expected": 7500,
+      "packets_lost": 0,
+      "loss_pct": 0.0,
+      "duplicates": 0,
+      "reordered": 2,
+      "bytes_received": 9000000,
+      "receive_window_s": 7.997503042221069,
+      "goodput_mbps": 9.00280995454353,
+      "jitter_ms": 0.1318129827597722,
+      "delay_avg_ms": 0.3329127311706543,
+      "delay_min_ms": 0.10991096496582031,
+      "delay_max_ms": 4.219770431518555,
+      "interval_s": 1.0,
+      "throughput_series_mbps": [
+        9.024,
+        9.0048,
+        8.9952,
+        8.9952,
+        9.0048,
+        9.0048,
+        8.9952
+      ]
+    }
+  },
+  {
+    "label": "10.0 Mbps",
+    "server": "10.0.0.3",
+    "timestamp": "2026-10-29 17:06:54",
+    "sender": {
+      "test_id": 364091602,
+      "packets_sent": 8334,
+      "bytes_sent": 10000800,
+      "send_errors": 0,
+      "duration_s": 8.000819861000082,
+      "offered_mbps": 9.99977519678832,
+      "target_mbps": 10.0,
+      "pkt_size": 1200
+    },
+    "receiver": {
+      "test_id": 364091602,
+      "packets_received": 8026,
+      "packets_expected": 8334,
+      "packets_lost": 308,
+      "loss_pct": 3.695704343652508,
+      "duplicates": 0,
+      "reordered": 0,
+      "bytes_received": 9631200,
+      "receive_window_s": 8.08837342262268,
+      "goodput_mbps": 9.525969681926037,
+      "jitter_ms": 0.12701557004022435,
+      "delay_avg_ms": 77.50142799955397,
+      "delay_min_ms": 0.49424171447753906,
+      "delay_max_ms": 119.22669410705566,
+      "interval_s": 1.0,
+      "throughput_series_mbps": [
+        9.696,
+        9.6672,
+        9.4752,
+        9.4752,
+        9.6192,
+        9.552,
+        9.168,
+        9.5424
+      ]
+    }
+  },
+  {
+    "label": "11.0 Mbps",
+    "server": "10.0.0.3",
+    "timestamp": "2026-10-29 17:07:05",
+    "sender": {
+      "test_id": 451789646,
+      "packets_sent": 9167,
+      "bytes_sent": 11000400,
+      "send_errors": 0,
+      "duration_s": 8.000496236999993,
+      "offered_mbps": 10.99971769163649,
+      "target_mbps": 11.0,
+      "pkt_size": 1200
+    },
+    "receiver": {
+      "test_id": 451789646,
+      "packets_received": 7967,
+      "packets_expected": 9167,
+      "packets_lost": 1200,
+      "loss_pct": 13.090433075160902,
+      "duplicates": 0,
+      "reordered": 0,
+      "bytes_received": 9560400,
+      "receive_window_s": 8.089455842971802,
+      "goodput_mbps": 9.454677976448732,
+      "jitter_ms": 0.21628488431618936,
+      "delay_avg_ms": 88.38826206198178,
+      "delay_min_ms": 0.48613548278808594,
+      "delay_max_ms": 127.43568420410156,
+      "interval_s": 1.0,
+      "throughput_series_mbps": [
+        9.6288,
+        9.5136,
+        9.5328,
+        9.5424,
+        9.4368,
+        9.4752,
+        9.5232,
+        8.9472
+      ]
+    }
+  },
+  {
+    "label": "12.0 Mbps",
+    "server": "10.0.0.3",
+    "timestamp": "2026-10-29 17:07:15",
+    "sender": {
+      "test_id": 1555132428,
+      "packets_sent": 10000,
+      "bytes_sent": 12000000,
+      "send_errors": 0,
+      "duration_s": 8.000180115000035,
+      "offered_mbps": 11.999729833582576,
+      "target_mbps": 12.0,
+      "pkt_size": 1200
+    },
+    "receiver": {
+      "test_id": 1555132428,
+      "packets_received": 7979,
+      "packets_expected": 10000,
+      "packets_lost": 2021,
+      "loss_pct": 20.21,
+      "duplicates": 0,
+      "reordered": 0,
+      "bytes_received": 9574800,
+      "receive_window_s": 8.09090256690979,
+      "goodput_mbps": 9.467225611302315,
+      "jitter_ms": 0.3433702442652366,
+      "delay_avg_ms": 89.99441945623046,
+      "delay_min_ms": 1.1720657348632812,
+      "delay_max_ms": 105.95488548278809,
+      "interval_s": 1.0,
+      "throughput_series_mbps": [
+        9.5328,
+        9.5232,
+        9.4656,
+        9.4464,
+        9.3984,
+        9.5136,
+        9.4944,
+        9.3504
+      ]
+    }
+  },
+  {
+    "label": "15.0 Mbps",
+    "server": "10.0.0.3",
+    "timestamp": "2026-10-29 17:07:26",
+    "sender": {
+      "test_id": 89960716,
+      "packets_sent": 12500,
+      "bytes_sent": 15000000,
+      "send_errors": 0,
+      "duration_s": 8.000000397000008,
+      "offered_mbps": 14.999999255625022,
+      "target_mbps": 15.0,
+      "pkt_size": 1200
+    },
+    "receiver": {
+      "test_id": 89960716,
+      "packets_received": 7858,
+      "packets_expected": 12500,
+      "packets_lost": 4642,
+      "loss_pct": 37.136,
+      "duplicates": 0,
+      "reordered": 4,
+      "bytes_received": 9429600,
+      "receive_window_s": 8.086169958114624,
+      "goodput_mbps": 9.329113831486778,
+      "jitter_ms": 0.39950222160405635,
+      "delay_avg_ms": 91.84436720423068,
+      "delay_min_ms": 2.681255340576172,
+      "delay_max_ms": 119.65346336364746,
+      "interval_s": 1.0,
+      "throughput_series_mbps": [
+        9.504,
+        9.3888,
+        9.3792,
+        9.3216,
+        9.1488,
+        9.168,
+        9.3696,
+        9.3216
+      ]
+    }
+  },
+  {
+    "label": "20.0 Mbps",
+    "server": "10.0.0.3",
+    "timestamp": "2026-10-29 17:07:37",
+    "sender": {
+      "test_id": 1107575337,
+      "packets_sent": 16667,
+      "bytes_sent": 20000400,
+      "send_errors": 0,
+      "duration_s": 8.000000236999995,
+      "offered_mbps": 20.00039940748818,
+      "target_mbps": 20.0,
+      "pkt_size": 1200
+    },
+    "receiver": {
+      "test_id": 1107575337,
+      "packets_received": 7793,
+      "packets_expected": 16667,
+      "packets_lost": 8874,
+      "loss_pct": 53.242935141297174,
+      "duplicates": 0,
+      "reordered": 8,
+      "bytes_received": 9351600,
+      "receive_window_s": 8.081493377685547,
+      "goodput_mbps": 9.25729893024123,
+      "jitter_ms": 0.18346271089707702,
+      "delay_avg_ms": 91.96301765838392,
+      "delay_min_ms": 5.748748779296875,
+      "delay_max_ms": 116.91403388977051,
+      "interval_s": 1.0,
+      "throughput_series_mbps": [
+        9.12,
+        9.3408,
+        9.3504,
+        9.2832,
+        9.264,
+        9.3408,
+        9.12,
+        9.1968
+      ]
+    }
+  }
+]

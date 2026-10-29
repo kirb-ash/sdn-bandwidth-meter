@@ -1,0 +1,44 @@
+[
+  {
+    "label": "8.0 Mbps",
+    "server": "10.0.0.4",
+    "timestamp": "2026-10-29 17:07:45",
+    "sender": {
+      "test_id": 1791334862,
+      "packets_sent": 6667,
+      "bytes_sent": 8000400,
+      "send_errors": 0,
+      "duration_s": 8.000543756999946,
+      "offered_mbps": 7.999856252770499,
+      "target_mbps": 8.0,
+      "pkt_size": 1200
+    },
+    "receiver": {
+      "test_id": 1791334862,
+      "packets_received": 4141,
+      "packets_expected": 6667,
+      "packets_lost": 2526,
+      "loss_pct": 37.888105594720265,
+      "duplicates": 0,
+      "reordered": 2,
+      "bytes_received": 4969200,
+      "receive_window_s": 8.089061260223389,
+      "goodput_mbps": 4.914488680594088,
+      "jitter_ms": 0.38991404971905275,
+      "delay_avg_ms": 91.90031555763508,
+      "delay_min_ms": 0.3993511199951172,
+      "delay_max_ms": 129.2588710784912,
+      "interval_s": 1.0,
+      "throughput_series_mbps": [
+        4.7328,
+        4.896,
+        4.9632,
+        4.6752,
+        5.1552,
+        4.8096,
+        4.9056,
+        5.0016
+      ]
+    }
+  }
+]

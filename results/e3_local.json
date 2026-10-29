@@ -1,0 +1,84 @@
+[
+  {
+    "label": "20.0 Mbps",
+    "server": "10.0.0.2",
+    "timestamp": "2026-10-29 17:07:54",
+    "sender": {
+      "test_id": 64627707,
+      "packets_sent": 16667,
+      "bytes_sent": 20000400,
+      "send_errors": 0,
+      "duration_s": 8.000002604999963,
+      "offered_mbps": 20.000393487371962,
+      "target_mbps": 20.0,
+      "pkt_size": 1200
+    },
+    "receiver": {
+      "test_id": 64627707,
+      "packets_received": 16667,
+      "packets_expected": 16667,
+      "packets_lost": 0,
+      "loss_pct": 0.0,
+      "duplicates": 0,
+      "reordered": 13,
+      "bytes_received": 20000400,
+      "receive_window_s": 7.9899187088012695,
+      "goodput_mbps": 20.02563553290586,
+      "jitter_ms": 0.11088752729435475,
+      "delay_avg_ms": 0.3764754245167782,
+      "delay_min_ms": 0.03361701965332031,
+      "delay_max_ms": 43.41936111450195,
+      "interval_s": 1.0,
+      "throughput_series_mbps": [
+        20.1984,
+        20.0064,
+        19.9968,
+        20.0064,
+        19.9968,
+        19.9968,
+        19.9968
+      ]
+    }
+  },
+  {
+    "label": "50.0 Mbps",
+    "server": "10.0.0.2",
+    "timestamp": "2026-10-29 17:08:04",
+    "sender": {
+      "test_id": 1369722286,
+      "packets_sent": 41667,
+      "bytes_sent": 50000400,
+      "send_errors": 0,
+      "duration_s": 8.000002879000021,
+      "offered_mbps": 50.00038200611239,
+      "target_mbps": 50.0,
+      "pkt_size": 1200
+    },
+    "receiver": {
+      "test_id": 1369722286,
+      "packets_received": 41667,
+      "packets_expected": 41667,
+      "packets_lost": 0,
+      "loss_pct": 0.0,
+      "duplicates": 0,
+      "reordered": 18,
+      "bytes_received": 50000400,
+      "receive_window_s": 7.99410080909729,
+      "goodput_mbps": 50.03729744623638,
+      "jitter_ms": 0.0526971014291387,
+      "delay_avg_ms": 0.5306671089569516,
+      "delay_min_ms": 0.03600120544433594,
+      "delay_max_ms": 56.80537223815918,
+      "interval_s": 1.0,
+      "throughput_series_mbps": [
+        50.2848,
+        50.0064,
+        49.9968,
+        49.9968,
+        50.0064,
+        49.9968,
+        50.0064
+      ]
+    }
+  }
+]
