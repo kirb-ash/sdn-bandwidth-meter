@@ -2,7 +2,7 @@
 
 A UDP-based bandwidth measurement tool and an OpenFlow traffic analyzer, run on an emulated SDN network (Mininet + Open vSwitch + Ryu).
 
-**Pala Gaurav Reddy** · PES1UG25AM254 · Computer Networks mini project, PES University
+**Pala Gaurav Reddy** (PES1UG25AM254) · **Rishab Justin Mascarenhas** (PES1UG25AM308) · Computer Networks mini project, PES University
 
 ---
 
